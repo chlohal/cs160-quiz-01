@@ -10,7 +10,7 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class StaircaseResult {
 
     /*
      * Complete the 'staircase' function below.
@@ -43,7 +43,7 @@ public class StaircaseSolution {
 
         int n = Integer.parseInt(bufferedReader.readLine().trim());
 
-        Result.staircase(n);
+        StaircaseResult.staircase(n);
 
         bufferedReader.close();
     }
